@@ -1,0 +1,161 @@
+{
+    "root": {
+        "common": {
+            "templateType": "DD",
+            "templateId": "SQE1",
+            "title": "Drive Around",
+            "player": "../packet/assets/GamePlayView/player.png",
+            "Instructions": [
+                {
+                    "id": "help1",
+                    "url": "../packet/assets/HelpSection/helpsc0001.png",
+                    "audio":"../packet/assets/HelpSection/1.mp3"
+                },
+                {
+                    "id": "help2",
+                    "url": "../packet/assets/HelpSection/helpsc0002.png",
+                    "audio":"../packet/assets/HelpSection/2.mp3"
+                },
+                {
+                    "id": "help3",
+                    "url": "../packet/assets/HelpSection/helpsc0003.png",
+                    "audio":"../packet/assets/HelpSection/3.mp3"
+                },
+                {
+                    "id": "help4",
+                    "url": "../packet/assets/HelpSection/helpsc0004.png",
+                    "audio":"../packet/assets/HelpSection/4.mp3"
+                },
+                {
+                    "id": "help5",
+                    "url": "../packet/assets/HelpSection/helpsc0005.png",
+                    "audio":"../packet/assets/HelpSection/5.mp3"
+                },
+                {
+                    "id": "help6",
+                    "url": "../packet/assets/HelpSection/helpsc0006.png",
+                    "audio":"../packet/assets/HelpSection/6.mp3"
+                },
+                {
+                    "id": "help7",
+                    "url": "../packet/assets/HelpSection/helpsc0007.png",
+                    "audio":"../packet/assets/HelpSection/7.mp3"
+                },
+                {
+                    "id": "help8",
+                    "url": "../packet/assets/HelpSection/helpsc0008.png",
+                    "audio":"../packet/assets/HelpSection/8.mp3"
+                },
+                {
+                    "id": "help9",
+                    "url": "../packet/assets/HelpSection/helpsc0009.png",
+                    "audio":"../packet/assets/HelpSection/9.mp3"
+                },
+                {
+                    "id": "help10",
+                    "url": "../packet/assets/HelpSection/helpsc0010.png",
+                    "audio":"../packet/assets/HelpSection/10.mp3"
+                },
+                {
+                    "id": "help11",
+                    "url": "../packet/assets/HelpSection/helpsc0011.png",
+                    "audio":"../packet/assets/HelpSection/11.mp3"
+                },
+                {
+                    "id": "help12",
+                    "url": "../packet/assets/HelpSection/helpsc0012.png",
+                    "audio":"../packet/assets/HelpSection/12.mp3"
+                },
+                {
+                    "id": "help13",
+                    "url": "../packet/assets/HelpSection/helpsc0013.png",
+                    "audio":"../packet/assets/HelpSection/13.mp3"
+                }
+            ],
+            "Toast": {
+                "CorrectAnswer": {
+                    "text": "Good Job! Awesome!",
+                    "time": 1
+                },
+                "IncorrectAnswer": {
+                    "text": "Keep trying! Practice makes one perfect!",
+                    "time": 1
+                },
+                "HintUsed": {
+                    "text": "You can do this!",
+                    "time": 1
+                },
+                "SkipQuestion": {
+                    "text": "You have skipped the question.",
+                    "time": 1
+                },
+                "InactivityToast": {
+                    "text": "Are you there?",
+                    "time": 1
+                }
+            },
+            "Assets": {
+                "images": [
+                    {
+                        "asset": "barrier",
+                        "url": "../packet/assets/GamePlayView/Obsticles/barrier.png"
+                    },
+                    {
+                        "asset": "hole",
+                        "url": "../packet/assets/GamePlayView/Obsticles/hole.png"
+                    },
+                    {
+                        "asset": "pit",
+                        "url": "../packet/assets/GamePlayView/Obsticles/pit.png"
+                    },
+                    {
+                        "asset": "police_car",
+                        "url": "../packet/assets/GamePlayView/Obsticles/police_car.png"
+                    },
+                    {
+                        "asset": "track2",
+                        "url": "../packet/assets/GamePlayView/Obsticles/track2.png"
+                    },
+                    {
+                        "asset": "track3",
+                        "url": "../packet/assets/GamePlayView/Obsticles/track3.png"
+                    },
+                    {
+                        "asset": "traffican",
+                        "url": "../packet/assets/GamePlayView/Obsticles/traffican.png"
+                    },
+                    {
+                        "asset": "truck",
+                        "url": "../packet/assets/GamePlayView/Obsticles/truck.png"
+                    },
+                    {
+                        "asset": "collect",
+                        "url": "../packet/assets/GamePlayView/Obsticles/collect.png"
+                    }
+                ]
+            }
+        },
+        "gameScreen": {
+            "LevelData": {
+                "time": 20,
+                "questions": [
+                    {
+                        "id": "1102020"
+                    },
+                    {
+                        "id": "1029209"
+                    },
+                    {
+                        "id": "1029210"
+                    },
+                    {
+                        "id": "1029211"
+                    },
+                    {
+                        "id": "1029212"
+                    }
+                ]
+            }
+        }
+    }
+}
